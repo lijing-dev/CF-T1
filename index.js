@@ -2,7 +2,7 @@
  *  自定义网站配置 
  */
 const config = {
-  title: "NPC导航",                 //write your website title
+  title: "你知道我在等你吗",                 //write your website title
   subtitle: "", //write your website subtitle
   logo_icon: "closed captioning",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
   hitokoto: false,                     //use hitokoto or not
@@ -68,14 +68,59 @@ const config = {
           desc:"Webdav同步盘"
         },
         {
-          url:"https://www.aliyundrive.com/drive",
-          name:"阿里",
-          desc:"阿里云盘"
+          url:"https://cloud.189.cn/",
+          name:"天翼",
+          desc:"天翼云盘"
+        },
+        {
+          url:"http://apanr.net/account",
+          name:"A盘",
+          desc:"Anyview书籍同步盘"
         },
         {
           url:"https://up.woozooo.com/u",
           name:"蓝奏云",
           desc:"蓝奏云软件分享"
+        },
+        {
+          url:"https://mo.own-cloud.cn/",
+          name:"小麦",
+          desc:"小麦魔方"
+        },
+        {
+          url:"https://www.mcun.cn/",
+          name:"麦存",
+          desc:"麦存云盘"
+        },
+        {
+          url:"https://quqi.com/",
+          name:"曲奇",
+          desc:"曲奇云盘"
+        },
+        {
+          url:"https://ftpod.cn/#/#91io.cn",
+          name:"小麦云链",
+          desc:"公共临时文件分享"
+        },
+        {
+          url:"https://www.wenshushu.cn/",
+          name:"文叔叔",
+          desc:"个人临时文件分享"
+        },
+        {
+          url:"https://cowtransfer.com/",
+          name:"奶牛",
+          desc:"奶牛快传"
+        },
+        {
+          url:"https://www.yunshix.com/",
+          name:"极致云视",
+          desc:"套壳盘"
+        },
+        {
+          url:"https://www.yunzhongzhuan.com/",
+          name:"云中转",
+          desc:"套壳盘"
         },
       ]
     },
