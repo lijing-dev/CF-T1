@@ -31,11 +31,11 @@ h1 {
 }
 
 #menubtn {
+  background-color: #373737;
   margin-top: 3rem;
 }
 
 main {
-  background-color: #373737;
   flex-basis: auto;
   flex-grow: 1;
   padding: 2rem 0;
