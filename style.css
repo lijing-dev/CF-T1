@@ -46,7 +46,6 @@ main {
 }
 
 main .container{
-  background-color: #373737;
   height: 100%;
   display: flex !important;
   flex-direction: column;
@@ -54,8 +53,10 @@ main .container{
   -moz-flex-direction: column;
   -o-flex-direction: column;
 }
+/* 网站列表背景 */
 
 main .segment {
+  background-color: #373737;
   flex-grow: 1;
   margin: 0 !important;
 }
