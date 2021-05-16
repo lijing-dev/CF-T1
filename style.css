@@ -18,12 +18,13 @@ header {
 }
 
 #nav .item {
-  background-color: #373737;
   display: inline-block;
   width: -webkit-fill-available;
 }
+/* 每日一语 */
 
 h1 {
+  background-color: #373737;
   display: inline-block;
 }
 
