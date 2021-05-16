@@ -1,4 +1,5 @@
 body {
+  background-color: #373737;
   width: -webkit-fill-available;
   height: 100%;
   display: flex;
@@ -6,7 +7,6 @@ body {
   -webkit-flex-direction: column;
   -moz-flex-direction: column;
   -o-flex-direction: column;
-  background-color: #373737;
 }
 
 header {
