@@ -20,18 +20,15 @@ header {
 #nav .item {
   display: inline-block;
   width: -webkit-fill-available;
-}
-/* 每日一语 */
+}/* 每日一语 */
 
 h1 {
   display: inline-block;
-}
-/* 顶部文字 */
+}/* 顶部文字 */
 
 #title {
   padding: 5rem 0;
-}
-/* 顶部文字背景 */
+}/* 顶部文字背景 */
 
 #menubtn {
   margin-top: 3rem;
@@ -52,8 +49,7 @@ main .container{
   -webkit-flex-direction: column;
   -moz-flex-direction: column;
   -o-flex-direction: column;
-}
-/* 网站列表背景 */
+}/* 网站列表背景 */
 
 main .segment {
   flex-grow: 1;
@@ -65,7 +61,6 @@ main .segment {
 }/* 列表标题背景 */
 
 footer {
-  background-color: #373737;
   flex-grow: 0
 }
 
@@ -73,9 +68,10 @@ footer {
   padding: 1rem 0;
   text-align: center;
   background-color: #ddd;
-}
+}/* 底部页脚背景 */
 
 .card {
+  background-color: #373737;
   padding: .5rem;
 }
 
