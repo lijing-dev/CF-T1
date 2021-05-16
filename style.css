@@ -61,11 +61,11 @@ main .segment {
 }
 
 .segment h4{
-  background-color: #373737;
   padding-bottom: .5rem !important;
-}
+}/* 列表标题背景 */
 
 footer {
+  background-color: #373737;
   flex-grow: 0
 }
 
