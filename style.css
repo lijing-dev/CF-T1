@@ -14,11 +14,11 @@ header {
 }
 
 #head {
-  background-color: #373737;
   background-image: linear-gradient(to top, #000000 0%, #09203f 100%);
 }
 
 #nav .item {
+  background-color: #373737;
   display: inline-block;
   width: -webkit-fill-available;
 }
