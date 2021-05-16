@@ -80,7 +80,6 @@ footer {
 
 @media screen and (max-width: 479px) {
   p {
-      background-color: #373737;
       width: -webkit-fill-available;
       text-align: center;
       line-height: 1.5rem;
