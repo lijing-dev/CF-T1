@@ -1,5 +1,4 @@
 body {
-  background-color: #373737;
   width: -webkit-fill-available;
   height: 100%;
   display: flex;
@@ -44,6 +43,7 @@ main {
 }
 
 main .container{
+  background-color: #373737;
   height: 100%;
   display: flex !important;
   flex-direction: column;
