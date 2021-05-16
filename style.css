@@ -9,14 +9,13 @@ body {
 }
 
 header {
-  background-color: #373737;
   text-align: center;
   flex-grow: 0;
 }
 
 #head {
   background-image: linear-gradient(to top, #000000 0%, #09203f 100%);
-}
+}/* 顶部图片文字背景 */
 
 #nav .item {
   display: inline-block;
