@@ -24,11 +24,12 @@ header {
 /* 每日一语 */
 
 h1 {
-  background-color: #373737;
   display: inline-block;
 }
+/* 顶部文字 */
 
 #title {
+  background-color: #373737;
   padding: 5rem 0;
 }
 
