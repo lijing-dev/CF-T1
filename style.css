@@ -29,11 +29,12 @@ h1 {
 /* 顶部文字 */
 
 #title {
-  background-color: #373737;
   padding: 5rem 0;
 }
+/* 顶部文字背景 */
 
 #menubtn {
+  background-color: #373737;
   margin-top: 3rem;
 }
 
