@@ -2,7 +2,7 @@
  *  自定义网站配置 
  */
 const config = {
-  title: "NPC导航",                 //write your website title
+  title: " 你知道我在等你吗",                 //write your website title
   subtitle: "", //write your website subtitle
   logo_icon: "closed captioning",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
   hitokoto: false,                     //use hitokoto or not
