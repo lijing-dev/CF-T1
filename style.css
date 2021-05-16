@@ -71,11 +71,11 @@ footer {
 }/* 底部页脚背景 */
 
 .card {
-  background-color: #373737;
   padding: .5rem;
 }
 
 #seller .list {
+  background-color: #373737;
   padding: 0 5rem;
 }
 
