@@ -2,11 +2,11 @@
  *  自定义网站配置 
  */
 const config = {
-  title: "自定义导航",                 //write your website title
-  subtitle: "Cloudflare Workers Dir", //write your website subtitle
-  logo_icon: "sitemap",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
-  hitokoto: true,                     //use hitokoto or not
-  search:true,                        //enable search function
+  title: "NPC导航",                 //write your website title
+  subtitle: "", //write your website subtitle
+  logo_icon: "closed captioning",               //select your logo by semantic-ui icon (you can get more msg in:https://semantic-ui.com/elements/icon.html)
+  hitokoto: false,                     //use hitokoto or not
+  search:false,                        //enable search function
   search_engine:[                     //choose search engine which you use
     {
       name:"百 度",
@@ -25,7 +25,7 @@ const config = {
       template:"https://www.sogou.com/web?query=$s"
     }
   ],
-  selling_ads: true,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
+  selling_ads: false,                  //Selling your domain or not.(turning on may be helpful for selling this domain by showing some ads.)
   sell_info:{
     domain:"example.com",
     price:500,                        //domain price
@@ -38,6 +38,151 @@ const config = {
     ]                        
   },
   lists: [                            //Url list
+    {
+      name:"网盘",
+      icon:"hdd outline",
+      list:[
+        {
+          url:"https://2dland.cn",
+          name:"6盘",
+          desc:"永远的神"
+        },
+        {
+          url:"https://pan.baidu.com/",
+          name:"百度",
+          desc:"百度网盘"
+        },
+        {
+          url:"https://www.aliyundrive.com/drive",
+          name:"阿里",
+          desc:"阿里云盘"
+        },
+        {
+          url:"https://pan.xunlei.com/",
+          name:"迅雷",
+          desc:"迅雷云盘"
+        },
+        {
+          url:"https://www.jianguoyun.com/",
+          name:"坚果云",
+          desc:"Webdav同步盘"
+        },
+        {
+          url:"https://www.aliyundrive.com/drive",
+          name:"阿里",
+          desc:"阿里云盘"
+        },
+        {
+          url:"https://up.woozooo.com/u",
+          name:"蓝奏云",
+          desc:"蓝奏云软件分享"
+        },
+      ]
+    },
+    {
+      name:"技术",
+      icon:"code",
+      list:[
+        {
+          url:"https://oschina.net/",
+          name:"开源中国",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://v2ex.com",
+          name:"V2EX",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://csdn.net/",
+          name:"CSDN技术社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://github.com/",
+          name:"Github",
+          desc:"程序员集散地"
+        },
+      ]
+    },
+    {
+      name:"技术",
+      icon:"code",
+      list:[
+        {
+          url:"https://oschina.net/",
+          name:"开源中国",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://v2ex.com",
+          name:"V2EX",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://csdn.net/",
+          name:"CSDN技术社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://github.com/",
+          name:"Github",
+          desc:"程序员集散地"
+        },
+      ]
+    },
+    {
+      name:"技术",
+      icon:"code",
+      list:[
+        {
+          url:"https://oschina.net/",
+          name:"开源中国",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://v2ex.com",
+          name:"V2EX",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://csdn.net/",
+          name:"CSDN技术社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://github.com/",
+          name:"Github",
+          desc:"程序员集散地"
+        },
+      ]
+    },
+    {
+      name:"技术",
+      icon:"code",
+      list:[
+        {
+          url:"https://oschina.net/",
+          name:"开源中国",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://v2ex.com",
+          name:"V2EX",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://csdn.net/",
+          name:"CSDN技术社区",
+          desc:"程序员集散地"
+        },
+        {
+          url:"https://github.com/",
+          name:"Github",
+          desc:"程序员集散地"
+        },
+      ]
+    },
     {
       name:"技术",
       icon:"code",
@@ -88,6 +233,7 @@ const config = {
           name:"简书",
           desc:"程序员集散地"
         },
+        
       ]
     }
   ]
@@ -183,9 +329,11 @@ function renderHTML(index,seller) {
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
       <title>${config.title} - ${config.subtitle}</title>
       <link href="https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.css" rel="stylesheet">
-      <link href="https://cdn.jsdelivr.net/gh/lijing-dev/CF-T1@0.1.2/style.css" rel="stylesheet">
+      <link href="https://cdn.jsdelivr.net/gh/lijing-dev/CF-T1@0.4.0/style.css" rel="stylesheet">
       <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/semantic-ui-css@2.4.1/semantic.min.js"></script>
+      <link rel="shortcut icon" href="https://www.mcun.cn/api/v3/file/source/95246/NPC%20crude.ico?sign=2jkKDKz4LUK2kPAdwARxjsv9HLJquiI7i7yesHGZiFc%3D%3A0" />
+      <link rel="bookmark" href="https://www.mcun.cn/api/v3/file/source/95246/NPC%20crude.ico?sign=2jkKDKz4LUK2kPAdwARxjsv9HLJquiI7i7yesHGZiFc%3D%3A0" type="image/x-icon"  />
   </head>
   <body>
     ${index}
