@@ -38,7 +38,6 @@ h1 {
 }
 
 main {
-  background-color: #373737;
   flex-basis: auto;
   flex-grow: 1;
   padding: 2rem 0;
@@ -47,6 +46,7 @@ main {
 }
 
 main .container{
+  background-color: #373737;
   height: 100%;
   display: flex !important;
   flex-direction: column;
